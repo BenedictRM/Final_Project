@@ -1,0 +1,21 @@
+newmtl file1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd RGII_Diffuse.bmp
+Ni 1.00
+newmtl file2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd RGII_Glow.bmp
+Ni 1.00
+newmtl file3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd RGII_Col3_Diff.bmp
+Ni 1.00
