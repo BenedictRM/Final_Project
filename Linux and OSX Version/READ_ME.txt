@@ -85,27 +85,7 @@ CONTROLS:
     F7: Turn first person view on/off (not recommended)  
     F8: Turn fog on/off  
     Esc: To close the program
-
-
-Of Interest (why I should get an A): 
-
-1) My terrain was generated using a simplex algorithm which results in nice curves and variability beyond what a human could specify for terrain.  This did take several days to achieve since C does not have access to GMP math like C++ does, so I had to find a simplex algorithm and get that to work.  Then I had to derive how to get openGL to draw a landscape based on the output.  I also used this method to simulate electricity when the pyramid opens in the center.
-        
-2) The physics took a couple weeks to get working (and was a stretch goal), ODE is a pretty easy engine to use once you figure it out, but figuring it out took a very long time due to lack of message board activity and example programs that use ODE AND OpenGL.  Hopefully you find the physics aspects of this project entertaining. Please note that the physics do act a bit strangely if you are too close to objects when you fire the ball gun (this is due to single precision being in use in the program), the engine often resolves the collision by pushing one object through the other rather than bouncing it off.
-
-3) It's not a major thing, but getting the skybox to appear without visible lines took a very long time with a lot of tweaking between working on drawing objects in the program. I'm pretty happy with how it turned out, however I was never able to get the 'ground' of the skybox to appear without lines, however you'd have to walk off the terrain to see that. 
-
-4) Getting the first person view with a moving gun took some time, and I think it really draws in the user.  Overall I think I did a nice job of creating an immersive game world--at least as far as one could expect from an amateur.  I was a bit disappointed I didn't quite achieve the same world/look/feel as FRACT-OSC as I had originally planned, but when I realized how many shaders I would need to get that I turned my focus onto getting physics working--which took much longer than anticipated.  Next semester I should be able to combine my physics knowledge with learning shaders.
-
-5) Along with having physical properties applid to (almost) every object in the scene, I have lots of animations happening as well based on whether objects are being interacted with.  This took a bit more time to implement, but was at times a challenge to perfect, and I think it's important to get credit for all those.  
-
-6) The original intention behind most of my objects in the scene was to perfect them once, then draw lots of them later.  However things like the opening doorway turned out to not be as scalable as I wanted them to be once I added physics.  Next time I think I would plan out some of the objects better. I found myself still designing new objects in the last week of class rather than creating the game world.  But this resulted in a lot more targets for the user to shoot at.  
-
-7) Accurate normals/lighting on everything (hard to do when adding in obj files from mysterious sources!)
-
-8) The working makefile took a LOT of panic time to get working
-
-Overall, I think I achieved my major goal of creating a game world along with getting physics working. There are several things I would do differentlyif I were to do it again (mentioned above), however I'm pretty happy with the results.  I think I ended up with more of a shooting range than a FRACT OSC puzzle world like I wanted, but now I think I understand how I would get to the puzzle stuff if I were to do it again.  I also really wanted to add sound to my scene, but I spent  several hours trying to get SDL working on Windows and was unable to get it going.  Again this was delayed due to the complexity of getting physics working, but next time I definitely want sound, and shaders, lots of shaders.  
+ 
 
 Citations:
 
