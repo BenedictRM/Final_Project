@@ -1,6 +1,7 @@
 Author: Russell Mehring
-Date: 12/09/2014
-CSCI 5229
+Date: 12/15/2014
+
+Liscense: Please only use this source code for personal use and/or educational use, and cite myself or any others whom I have cited below as necessary.  Enjoy!
 
 To Compile: type 'make'
 
@@ -104,3 +105,5 @@ submitted by user: n123q45, personnal use only liscense
 
 7) OBJ file 'Drone' from http://tf3dm.com/3d-model/drone-86628.html
 submitted by user: 3dregenerator, personnal use only liscense
+
+8) Some source files from Professor Willem Schreuder-- "fatal.c", "errcheck.c", "loadtexbmp.c"  "project.c"

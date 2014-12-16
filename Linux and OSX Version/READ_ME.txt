@@ -1,6 +1,7 @@
 Author: Russell Mehring
-Date: 12/09/2014
-CSCI 5229
+Date: 12/15/2014
+
+Liscense: Please only use this source code for personal use and/or educational use, and cite myself or any others whom I have cited below as necessary.  Enjoy!
 
 To Compile: type 'make'
 
@@ -82,10 +83,9 @@ CONTROLS:
     F3: Press F3 to launch pyramids
     F4: Press F4 to toggle the axis on/off
     F6: Switch b/w Orthogonal/perspective view (not recommended)
-    F7: Turn first person view on/off (not recommended)  
-    F8: Turn fog on/off  
+    F7: Turn first person view on/off (not recommended)    
     Esc: To close the program
- 
+
 
 Citations:
 
@@ -105,3 +105,5 @@ submitted by user: n123q45, personnal use only liscense
 
 7) OBJ file 'Drone' from http://tf3dm.com/3d-model/drone-86628.html
 submitted by user: 3dregenerator, personnal use only liscense
+
+8) Some source files from Professor Willem Schreuder-- "fatal.c", "errcheck.c", "loadtexbmp.c"  "project.c"
